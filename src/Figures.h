@@ -51,7 +51,7 @@ Vertex triangleVertexes[] = {
     Vertex(vec3( 0.5f, -0.5f, -0.5f), vec3(0.5f, 1.0f, 0.0f)),
     Vertex(vec3( 0.5f, -0.5f, -0.5f), vec3(0.5f, 1.0f, 0.0f)),
     Vertex(vec3( 0.5f, -0.5f,  0.5f), vec3(0.5f, 1.0f, 0.0f)),
-    Vertex(vec3( 0.5f,  0.5f,  0.5f), vec3(0.5f, 1.0f, 0.0f))
+    Vertex(vec3( 0.5f,  0.5f,  0.5f), vec3(0.5f, 1.0f, 0.1f))
 
 };
 
