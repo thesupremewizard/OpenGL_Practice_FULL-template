@@ -8,8 +8,8 @@
 using namespace std;
 using namespace glm;
 
-/*
 
+/*
 void loadObjModel(const string& modelPath, std::vector<Vertex>& resultVertexes){
     Assimp::Importer importer;
 
@@ -18,8 +18,14 @@ void loadObjModel(const string& modelPath, std::vector<Vertex>& resultVertexes){
                                                                 aiProcess_OptimizeMeshes);
 
     // подсчет количества вершин и индексов
-
-
+    scene->mNumMeshes;
+    mesh = scene->mMeshes[i];
+    mesh->numVertex;
+    mesh->mNumFaces * 3;
+    vector<vec3>vertexCount(mesh->mNumFaces * 3);
+    vector<vec3> indices();
+    
+    
     // Временные буфферы для хранения вершин и индексов
 
     // Копируем во временные буфферы буфферы
@@ -29,5 +35,5 @@ void loadObjModel(const string& modelPath, std::vector<Vertex>& resultVertexes){
     // Вбиваем по индексам в массив вершин
 
 }
-
 */
+
