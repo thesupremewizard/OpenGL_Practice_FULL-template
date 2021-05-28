@@ -9,7 +9,8 @@ using namespace glm;
 // данные о вершинах
 int triangleVertexCount = 36;
 Vertex triangleVertexes[] = {
-
+//////////////////////
+    //////////////////////////////////////x
     //                ВЕРШИНА                   ЦВЕТ       Текстурные координаты
     Vertex(vec3(-0.5f, -0.5f, -0.5f), vec3(1.0f, 1.0f, 1.0f),vec2(-0.5f, -0.5f)),//розовый
     Vertex(vec3( 0.5f, -0.5f, -0.5f), vec3(1.0f, 1.0f, 1.0f),vec2(0.5f, -0.5f)),
